@@ -1,0 +1,27 @@
+{
+    "authentication": {
+        "roblosecurity": "PasteYourCookieHere"
+    },
+    "migration": {
+        "webhook_url": "WebhookURLHere Paste for results",
+        "proxy": "leave this quotes empty if you got none",
+        "target_group_id": "PasteYourGroupIDHere",
+        "source_place_ids": [
+            "PasteYourSourcePlaceIDHere",
+            "ItDoesSupportMultipleSourcePlaceIDs,Just Add More ToThe List"
+        ],
+        "input_file": "PasteNameForInputFileHere.rbxmx IT HAS TO BE IN THE FOLDER",
+        "output_file": "PasteNameForOutputFileHere.rbxmx WILL BE IN THE FOLDER AFTERWARDS",
+        "enabled_types": {
+            "animations": true,
+            "audio": false,
+            "images": false
+        }
+    },
+    "target_properties": [
+        "AnimationId",
+        "TextureID",
+        "SoundId",
+        "MeshId"
+    ]
+}
